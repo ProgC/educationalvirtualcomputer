@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ANI_ASSIGN_SOMETING" xml:space="preserve">
+    <value>을 할당</value>
+  </data>
+  <data name="ANI_DECREASE_SOMETING" xml:space="preserve">
+    <value>을 감소</value>
+  </data>
+  <data name="ANI_INCREASE_SOMETING" xml:space="preserve">
+    <value>을 증가</value>
+  </data>
+  <data name="ANI_OF_VALUE" xml:space="preserve">
+    <value>의 값</value>
+  </data>
+  <data name="COLOR" xml:space="preserve">
+    <value>색상</value>
+  </data>
+  <data name="COLOR_BLUE" xml:space="preserve">
+    <value>파랑</value>
+  </data>
+  <data name="COLOR_GREEN" xml:space="preserve">
+    <value>초록</value>
+  </data>
+  <data name="COLOR_RED" xml:space="preserve">
+    <value>빨강</value>
+  </data>
+  <data name="COMMAND_ADD" xml:space="preserve">
+    <value>더하기</value>
+  </data>
+  <data name="COMMAND_ASSIGN" xml:space="preserve">
+    <value>할당</value>
+  </data>
+  <data name="COMMAND_CLEAR" xml:space="preserve">
+    <value>지우기</value>
+  </data>
+  <data name="COMMAND_DELAY" xml:space="preserve">
+    <value>지연</value>
+  </data>
+  <data name="COMMAND_LOOPEND" xml:space="preserve">
+    <value>반복끝</value>
+  </data>
+  <data name="COMMAND_LOOPSTART" xml:space="preserve">
+    <value>반복시작</value>
+  </data>
+  <data name="COMMAND_PUTPIXEL" xml:space="preserve">
+    <value>점찍기</value>
+  </data>
+  <data name="COMMAND_SUB" xml:space="preserve">
+    <value>빼기</value>
+  </data>
+  <data name="FLOAT1" xml:space="preserve">
+    <value>실수1</value>
+  </data>
+  <data name="FLOAT2" xml:space="preserve">
+    <value>실수2</value>
+  </data>
+  <data name="INT1" xml:space="preserve">
+    <value>정수1</value>
+    <comment>This is a integer1 value</comment>
+  </data>
+  <data name="INT2" xml:space="preserve">
+    <value>정수2</value>
+    <comment>This is a integer2 value</comment>
+  </data>
+  <data name="LOOP" xml:space="preserve">
+    <value>반복</value>
+  </data>
+  <data name="STRING1" xml:space="preserve">
+    <value>문자열1</value>
+  </data>
+  <data name="STRING2" xml:space="preserve">
+    <value>문자열2</value>
+  </data>
+  <data name="UI_CODE" xml:space="preserve">
+    <value>코드</value>
+  </data>
+  <data name="UI_CODE_ANIMATION" xml:space="preserve">
+    <value>코드 애니메이션</value>
+  </data>
+  <data name="UI_COLOR_PALATTE" xml:space="preserve">
+    <value>색상 팔레트</value>
+  </data>
+  <data name="UI_CPU_INFO" xml:space="preserve">
+    <value>CPU 정보</value>
+  </data>
+  <data name="UI_EXECUTE" xml:space="preserve">
+    <value>실행</value>
+  </data>
+  <data name="UI_INSTRUCTION_NUMBER" xml:space="preserve">
+    <value>명령어 번호</value>
+  </data>
+  <data name="UI_MEMORY_INFO" xml:space="preserve">
+    <value>메모리 정보</value>
+  </data>
+  <data name="UI_MONITOR" xml:space="preserve">
+    <value>모니터</value>
+  </data>
+  <data name="UI_SPEED" xml:space="preserve">
+    <value>속도</value>
+  </data>
+  <data name="UI_TIME" xml:space="preserve">
+    <value>시간</value>
+  </data>
+  <data name="UI_VARIABLE_NAME" xml:space="preserve">
+    <value>변수이름</value>
+  </data>
+  <data name="UI_VARIABLE_TYPE" xml:space="preserve">
+    <value>타입</value>
+  </data>
+  <data name="UI_VARIABLE_VALUE" xml:space="preserve">
+    <value>값</value>
+  </data>
+  <data name="WARNING_CANT_ASSIGN_TO_SAME_VARIABLE" xml:space="preserve">
+    <value>&lt;- 이 값을 동일한 변수에 대입할 수 없습니다.</value>
+  </data>
+  <data name="WARNING_CANT_CONVERT" xml:space="preserve">
+    <value>&lt;- 를 변환할 수 없습니다.</value>
+  </data>
+  <data name="WARNING_CANT_USE_VARIABLE_VALUE" xml:space="preserve">
+    <value>변수값을 사용할 수 없습니다.</value>
+  </data>
+  <data name="WARNING_DOESNT_EXIST" xml:space="preserve">
+    <value>&lt;- 존재하지 않습니다.</value>
+  </data>
+  <data name="WARNING_DOESNT_EXIST_COMMAND" xml:space="preserve">
+    <value>&lt;- 명령어가 존재하지 않습니다.</value>
+  </data>
+</root>
